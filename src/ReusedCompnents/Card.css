@@ -1,0 +1,30 @@
+.css-5gg2z1-MuiPaper-root-MuiCard-root {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.MuiPaper-elevation1 {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.calc button {
+  border-radius: 0px !important;
+  height: 100% !important;
+  width: 25% !important;
+  font-size: 30px;
+  color: #342876;
+}
+.add1 * {
+  border:  transparent !important;
+}
+
+.sub *{
+    width: 30px !important;
+    color: black !important;
+}
+.add1 *{
+    font-size: 30px;
+}
+.sub , .del ,.quan{
+  border-right: 1px solid #342876 !important;
+}

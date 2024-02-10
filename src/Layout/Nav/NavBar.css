@@ -1,0 +1,83 @@
+.navbarCus .css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+  background-color: #f1eeff !important;
+}
+
+.navbarCus * {
+  color: #141414 !important;
+}
+.sign {
+  background-color: white !important;
+  margin-left: 13px !important;
+  border-radius: 20px !important;
+  padding: 7px 17px 7px 17px !important;
+}
+.field .css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 0.6rem !important;
+  width: 34.18rem;
+}
+.field {
+  background-color: white !important;
+}
+@media (max-width: 1100px) {
+  .field .css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input {
+    height: 0.6rem !important;
+    width: 13.18rem !important;
+  }
+}
+@media (max-width: 767px) {
+  .field .css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input {
+    width: 9rem !important;
+  }
+}
+.welcom {
+  color: blue !important;
+  font-weight: 500 !important;
+  text-transform: capitalize;
+}
+.dropbtn {
+  color: white;
+  background: transparent !important;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}

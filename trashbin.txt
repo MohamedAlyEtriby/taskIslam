@@ -1,0 +1,1053 @@
+&&
+ 
+    onClick={() => {
+                handleSignIn();
+                setload(true);
+              }}
+ 
+handleSignIn
+ 
+start
+ 
+span
+ 
+screen
+ 
+useNavigate
+ 
+0.4rem
+ 
+.data.items
+ 
+console.log("rescartt", response);
+ 
+const dispatch = useDispatch();
+ 
+import { Logout } from "./Redux/Reducers/Reducers";
+import { Button } from "@mui/material";
+ 
+cen
+ 
+Grid
+ 
+ console.log("aiuau", auth);
+  console.log(credentials);
+ 
+indexC
+ 
+    console.log(
+                    );
+ 
+// <Button
+          //   style={{
+          //     width: "100%",
+          //     background: "#342876",
+          //     color: "white",
+          //     fontSize: "1.6rem",
+          //     padding: "5px",
+          //   }}
+          //   onClick={() => {
+          //     setIndexC(item_id);
+          //   }}
+          // >
+          //   Add
+          // </Button>
+ 
+  useEffect(() => {
+    // setloadindex(item_id);
+  }, []);
+ 
+  const handleClick = (itemId) => {
+    // Perform any actions before navigating, if needed
+    setloadindex(0);
+
+    // Navigate to the desired route
+    history.push(`/ProductDetails/${itemId}`);
+  };
+ 
+Quantity : <span>1</span>
+ 
+Button
+ 
+ <div>
+        <Title title="PRODUCT DETAILS" />
+        <Grid container spacing={2} style={{ marginTop: "2rem" }}>
+          <ProductDetailsUp data={data} />
+        </Grid>
+      </div>
+ 
+<ButtonUsed />
+ 
+
+        
+ 
+  // Check if the additional object exists and its product_id matches the itemId
+        return item.additional && item.additional.product_id === item_id;
+      });
+ 
+  setitemquan(foundItem.quantity);
+      setIndexC(item_id);
+      if (cart_id === null) {
+        dispatch(AddCart(response.data.data.id));
+        setmydata((prevData) => ({
+          ...prevData,
+          cart_id: response.data.data.id,
+        }));
+      }
+ 
+Url
+ 
+const data2 = UseFetch(`/checkout/cart?cart_id=${cart_id}`);
+ 
+     setmydata((prevData) => ({
+                ...prevData,
+                product_id: row.additional.product_id,
+              }));
+ 
+// Initial quantity
+ 
+{cart_id}
+ 
+        setitemquan(0);
+                    console.log(res.data);
+ 
+ width: 1rem !important;
+  height: 1rem !important;
+ 
+flex-cen
+ 
+flex-cen"
+ 
+flex-cen
+ 
+flex-cen
+ 
+flex-cen
+ 
+ dj
+ 
+flex-cen"
+ 
+tion()
+ 
+console.log(res.data);
+ 
+ if()
+ 
+RemoveCart
+ 
+ RemoveCart: (state, action) => {
+      state.cart_id = null;
+    },
+ 
+action.payload
+ 
+ Hand orthotics device
+ 
+100%
+ 
+ ColorRing,
+ 
+4fa94d
+ 
+["white"
+ 
+"#e15b64", "#f47e60", "#f8b26a", "#abbd81", "#849b87"
+ 
+load===true
+ 
+, "#f47e60", "#f8b26a", "#abbd81", "#849b87"
+ 
+ return
+ 
+console.log("quanarr", quan);
+ 
+ const quan = itemres.filter((item) => {
+      return item.id === item_id;
+    });
+ 
+  console.log("adasada", item_id);
+  console.log("sksks", indexC);
+ 
+mydata.product_id
+ 
+product_id
+ 
+setIndexC && item_id && setIndexC(item_id);
+ 
+setIndexC && item_id && setIndexC(item_id)
+ 
+console.log("ressss", response);
+ 
+medium_image_url
+ 
+cart_id: response.data.data.id,
+ 
+ if (cart_id === null) {
+        }
+ 
+.data.data.id
+ 
+response.data.data.id
+ 
+if (cart_id === 0)
+ 
+.id
+ 
+ console.log(response.data);
+        console.log(response);
+ 
+...prevData
+ 
+"1"
+ 
+"/descendant-categories?parent_id=1"
+ 
+const catdata = UseFetch(`/products?category_id=${active}`);
+ 
+Item
+ 
+Redux/Reducers/Reducers
+ 
+  const setCookieHeader = response.headers.get("set-cookie");
+        console.log("Set-Cookie Header:", setCookieHeader);
+        // Handle the response if needed
+        console.log("POST request response:", response);
+        console.log("cokkiiee:", response.headers.getSetCookie());
+ 
+  const setCookieHeader = response.headers.get("set-cookie");
+        console.log("Set-Cookie Header:", setCookieHeader);
+        // Handle the response if needed
+        console.log("POST request response:", response);
+        console.log("cokkiiee:", response.headers.getSetCookie());
+ 
+ headers: {
+              "Content-Type": "application/json",
+            },
+ 
+"Error Notification !"
+ 
+ console.log(error.response.data.errors);
+ 
+console.log(error.response.data.errors);
+ 
+data
+ 
+red
+ 
+flex-cen
+ 
+   label={
+                <div
+                  className="flex-cen"
+                  style={{ border: "1px solid green", width: "8rem" }}
+                >
+                  <LocalPhoneOutlinedIcon size={20} />
+                  <span style={{ marginLeft: "1rem" }}>Name</span>
+                </div>
+ 
+style={{ marginLeft: "1rem" }}
+ 
+flex-cen
+ 
+  <Button variant="primary" style={{ width: "100%" }} className="checko">
+            Checkout
+          </Button>
+ 
+.checkout {
+  background-color: #342876;
+}
+ 
+style={{ minHeight: "10rem", border: "1px solid green" }
+ 
+import Button from "react-bootstrap/Button";
+ 
+  <Button></Button>
+        <Button></Button>
+ 
+import ButtonUsed from "../../../ReusedCompnents/Button";
+import { FaStar } from "react-icons/fa";
+ 
+sks
+ 
+  <Grid item xs={4}>
+          <Item>xs=4</Item>
+        </Grid>
+        <Grid item xs={4}>
+          <Item>xs=4</Item>
+        </Grid>
+        <Grid item xs={8}>
+          <Item>xs=8</Item>
+        </Grid>
+ 
+Dropdown
+ 
+href="#"
+ 
+Link 1
+ 
+  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+ 
+basic-menu
+ 
+ MenuListProps={{
+                      "aria-labelledby": "basic-button",
+                    }}
+ 
+{" "}
+ 
+{" "}
+ 
+#342876
+ 
+{" "}
+ 
+style={{ color: "#342876" }}
+ 
+{" "}
+ 
+style={{color:""}}
+ 
+object
+ 
+  <Link
+                  style={{ textDecoration: "none" }}
+                  onClick={() => {
+                  }}
+                >
+ 
+Dashboard
+ 
+.token
+ 
+ <MenuItem onClick={handleClose}>Profile</MenuItem>
+                      <MenuItem onClick={handleClose}>My account</MenuItem>
+ 
+import { Logout } from "@mui/icons-material";
+ 
+da,ahmed
+ 
+da,ahmed
+ 
+turn
+ 
+/Redux/Reducers/Reducers
+ 
+onsole.log(e);
+ 
+   console.log('Email:', email);
+    console.log('Password:', password);
+ 
+shsh
+ 
+shsh
+ 
+ahmed
+ 
+Logout()
+ 
+"token", "name", "email", "social"
+ 
+dhdhdh
+ 
+dkdk
+ 
+{ token }
+ 
+store={store}
+ 
+store
+ 
+/Reducers/Reducers
+ 
+Persist/Persist
+ 
+ .loginInputs input {
+  }
+ 
+Phone
+ 
+{'margin="normal"'}
+ 
+"margin-normal"
+ 
+'margin="dense"'}
+ 
+row.tot
+ 
+add1
+ 
+quan
+ 
+sub
+ 
+  {
+    id: 3,
+    image: "",
+    title: "",
+    quant: "",
+    price: "",
+    tot: "",
+  },
+ 
+  {
+    id: 2,
+    image: "",
+    title: "",
+    quant: "",
+    price: "",
+    tot: "",
+  },
+ 
+ <Button className="del">
+          <DeleteOutlineOutlinedIcon fontSize={"30"} />
+        </Button>
+ 
+ id: 2,
+    title: "Ghostbusters",
+    year: "1984",
+ 
+ title: "Beetlejuice",
+    year: "1988
+ 
+Product Price"
+ 
+Product Price
+ 
+import * as React from 'react';
+// import { DataGrid } from '@mui/x-data-grid';
+
+// const columns = [
+//   { field: 'id', headerName: 'ID', width: 70 },
+//   { field: 'firstName', headerName: 'First name', width: 130 },
+//   { field: 'lastName', headerName: 'Last name', width: 130 },
+//   {
+//     field: 'age',
+//     headerName: 'Age',
+//     type: 'number',
+//     width: 90,
+//   },
+//   {
+//     field: 'fullName',
+//     headerName: 'Full name',
+//     description: 'This column has a value getter and is not sortable.',
+//     sortable: false,
+//     width: 160,
+//     valueGetter: (params) =>
+//       `${params.row.firstName || ''} ${params.row.lastName || ''}`,
+//   },
+// ];
+
+// const rows = [
+//   { id: 1, lastName: 'Snow', firstName: 'Jon', age: 35 },
+//   { id: 2, lastName: 'Lannister', firstName: 'Cersei', age: 42 },
+//   { id: 3, lastName: 'Lannister', firstName: 'Jaime', age: 45 },
+//   { id: 4, lastName: 'Stark', firstName: 'Arya', age: 16 },
+//   { id: 5, lastName: 'Targaryen', firstName: 'Daenerys', age: null },
+//   { id: 6, lastName: 'Melisandre', firstName: null, age: 150 },
+//   { id: 7, lastName: 'Clifford', firstName: 'Ferrara', age: 44 },
+//   { id: 8, lastName: 'Frances', firstName: 'Rossini', age: 36 },
+//   { id: 9, lastName: 'Roxie', firstName: 'Harvey', age: 65 },
+// ];
+
+// export default function Cart() {
+//   return (
+//     <div style={{ height: 400, width: '100%' }}>
+//       <DataGrid
+//         rows={rows}
+//         columns={columns}
+//         initialState={{
+//           pagination: {
+//             paginationModel: { page: 0, pageSize: 5 },
+//           },
+//         }}
+//         pageSizeOptions={[5, 10]}
+//         checkboxSelection
+//       />
+//     </div>
+//   );
+// }
+
+ 
+ useEffect(() => {
+    // Iterate through the navLinks array and set the active link
+    for (let i = 0; i < navLinks.length; i++) {
+      if (navLinks[i].to === url) {
+        setActiveLink(navLinks[i].to);
+      }
+    }
+  }, [url]);
+ 
+setActiveLink()
+ 
+ /* Light grey */
+ 
+/* Blue */
+ 
+variant="h6"
+ 
+with over 6,000
+          species, ranging across all continents except Antarctica
+ 
+"100%"
+ 
+, border: "1px solid green"
+ 
+min-
+ 
+screen
+ 
+ProductDetailsPage
+ 
+id
+ 
+  <div
+        className="flex-start"
+        style={{
+          margin: "auto",
+          flexWrap: "wrap",
+          minHeight: `${categories ? "50vh" : "20vh"}`,
+        }}
+      >
+     
+      </div>
+ 
+   {categories
+          ? categories.categories.map((item, index) => (
+              <div
+                key={item.id}
+                style={{ width: "25%", textAlign: "center" }}
+                onClick={() => {
+                  setactive(item.id);
+                }}
+              >
+                <span
+                  className={`${
+                    active === (active === 0 ? index : item.id)
+                      ? "active"
+                      : "notactive"
+                  }`}
+                >
+                  {item.name}
+                </span>
+              </div>
+            ))
+          : Array.from({ length: 4 }).map((_, index) => (
+              <div key={index} style={{ width: "25%", textAlign: "center" }}>
+                <LoadingCard height={50} width={"150px"} />
+              </div>
+            ))}
+ 
+  <span
+                    className={`${
+                      active === (active === 0 ? index : item.id)
+                        ? "active"
+                        : "notactive"
+                    }`}
+                  >
+                    {item.name}
+                  </span>
+ 
+   onClick={() => {
+                  setactive(item.id);
+                }}
+ 
+  {active === 0 ? (
+        <Grid container spacing={2} style={{ justifyContent: "center" }}>
+          {categories?.default_products
+            ? categories.default_products.map((def) => (
+                <Grid key={def.id} item xs={12} md={4} sm={6}>
+                  <MediaCard
+                    imag={def.base_image.large_image_url}
+                    price={def.price}
+                    item_id={def.id}
+                  />
+                </Grid>
+              ))
+            : Array.from({ length: 3 }).map((_, index) => (
+                <Grid key={index} item xs={12} md={4} sm={6}>
+                  <LoadingCard height={200} width={"100%"} />
+                </Grid>
+              ))}
+        </Grid>
+ 
+   ) : (
+        <Grid container spacing={2} style={{ justifyContent: "center" }}>
+          {catdata?.data &&
+            catdata.data.map((def) => (
+              <Grid key={def.id} item xs={12} md={4} sm={6}>
+                <MediaCard
+                  imag={def.base_image.large_image_url}
+                  price={def.price}
+                  item_id={def.id}
+                />
+              </Grid>
+            ))}
+        </Grid>
+      )}
+ 
+medical-supplies
+ 
+ <span>mohamed</span>
+ 
+sjs
+ 
+, border: "2px solid green"
+ 
+Grid
+ 
+Grid container spacing={2} style={{ marginTop: "2rem" }}
+ 
+Grid container spacing={2} style={{ marginTop: "2rem" }} className=""
+ 
+div
+ 
+div
+ 
+style={{alignItems:"flex-end"}}
+ 
+border: "1px solid green"
+ 
+,border:"1px solid blue"
+ 
+height: "20rem"
+ 
+          <Button></Button>
+
+ 
+Colors
+ 
+Price: 50.0SAR
+ 
+  width: 5.4rem !important;
+    height: 5.62rem !important;
+ 
+important
+ 
+100
+ 
+{image.alt}
+ 
+""
+ 
+object
+ 
+<MedicalSupplies />
+ 
+Medical
+ 
+key={index}
+ 
+"credentials": 'include', // This includes cookies in the request
+ 
+OST request response
+ 
+["set-cookie"]
+ 
+["set-cookie"]
+ 
+request
+ 
+["set-cookie"]
+ 
+"50vh"
+ 
+   {Array.from({ length: 4 }).map((_, index) => (
+        <div key={index} style={{ width: "25%", textAlign: "center" }}>
+          <LoadingCard height={50} width={"150px"} />
+        </div>
+      ))}
+ 
+"100%"
+ 
+count={3}
+ 
+)
+            : Array.from({ length: 4 }).map((_, index) => (
+                <Grid key={index} item xs={12} md={4} sm={6}>
+                  <LoadingCard />
+                </Grid>
+              ))
+ 
+: (
+            <div style={{ width: "25%", textAlign: "center" }}>
+              <Skeleton height={20} width={100} />
+            </div>
+ 
+import LoadingCard from "../../Path/To/LoadingCard"; // Import the LoadingCard component
+ 
+.default_products
+ 
+mydata.product_id
+ 
+<Grid item xs={4}>
+          <MediaCard />
+        </Grid>{" "}
+        <Grid item xs={4}>
+          <MediaCard />
+        </Grid>
+        <Grid item xs={4}>
+          <MediaCard />
+        </Grid>
+ 
+     <Grid item xs={4}>
+          <Item>xs=4</Item>
+        </Grid>
+        <Grid item xs={4}>
+          <Item>xs=4</Item>
+        </Grid>
+        <Grid item xs={8}>
+          <Item>xs=8</Item>
+        </Grid>
+ 
+ <Item>xs=8</Item>
+ 
+const datacat=UseFetch("")
+ 
+Home
+ 
+1
+ 
+Most
+ 
+item_id
+ 
+{mydata.product_id}
+ 
+data
+ 
+{ id, quantity }
+ 
+right
+ 
+4px
+ 
+button
+ 
+width: 20px !important;
+    height: 20px !important;
+ 
+width: 50px !important;
+    height: 20px !important;
+ 
+-
+ 
+1
+ 
+ <Button
+            style={{
+              width: "100%",
+              background: "#342876",
+              color: "white",
+              fontSize: "1.6rem",
+              padding: "5px",
+            }}
+        
+          >
+            Add
+          </Button>
+ 
+    onClick={() => {
+              setIndexC(item_id);
+            }}
+ 
+  <Button
+          style={{
+            width: "100%",
+            background: "#342876",
+            color: "white",
+            fontSize: "1.6rem",
+            padding: "5px",
+          }}
+          onClick={() => {
+            setIndexC(item_id);
+          }}
+        >
+          Add
+        </Button>
+ 
+    <Typography gutterBottom variant="h6" component="div">
+          Hand orthotics device :{price}
+        </Typography>
+ 
+  <CardContent>
+        <Typography gutterBottom variant="h6" component="div">
+          Hand orthotics device :{price}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Lizards are a widespread group of squamate reptiles, with over 6,000
+          species, ranging across all continents except Antarctica
+        </Typography>
+      </CardContent>
+ 
+formated_offer_
+ 
+ <SwiperSlide>
+          <MediaCard />
+        </SwiperSlide>
+        <SwiperSlide>
+          <MediaCard />
+        </SwiperSlide>
+        <SwiperSlide>
+          <MediaCard />
+        </SwiperSlide>
+ 
+{/* Use the image prop here */}
+ 
+ "https://sehahome.com/cache/medium/product/548/RRzoA6J4TbwcNLa4QMZHHsuFFVceF0X9cOQhbyny.webp"
+ 
+"https://sehahome.com/cache/medium/product/550/Dvn3LbJqb7sAvRiKUeTuT6N7FK1bR2UOyFJ4oQpc.jpg"
+ 
+component="img" // Set the component to "img" if you want to use an image tag
+        src={img}
+ 
+"/assets/Homeimgg.png"
+ 
+"https://sehahome.com/api/descendant-categories?parent_id=1
+ 
+baseUrl, 
+ 
+import { useTranslation } from "react-i18next";
+import GetBaseUrl from "./BaseUrl";
+ 
+import axios from "axios";
+import React, { useState } from "react";
+import { useEffect } from "react";
+import baseUrl from "./BaseUrl";
+
+const FetchData = (Url) => {
+  const [data, setData] = useState(null);
+  useEffect(() => {
+    (async () => {
+      try {
+        const response = await axios.get(base + Url);
+        console.log("Response data:", response.data);
+        setData(response.data);
+      } catch (err) {
+        console.log("Error:", err);
+        setData(null);
+      }
+    })();
+  }, [Url]);
+
+  return data;
+};
+
+export default FetchData;
+
+ 
+o cart
+ 
+size="small"
+ 
+border-box
+ 
+sizing
+ 
+relative
+ 
+-bullets .swiper-pagination-horizontal
+ 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-l
+ 
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+ 
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ 
+140
+ 
+modules={[Navigation]}
+ 
+Slide 1
+ 
+ body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+ 
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+ 
+  <div>djdjdj</div>
+        <div>djdjdj</div>
+        <div>djdjdj</div>
+        <div>djdjdj</div>
+        <div>djdjdj</div>
+        <div>djdjdj</div>
+ 
+  <div>djdjdj</div>
+        <div>djdjdj</div>
+        <div>djdjdj</div>
+        <div>djdjdj</div>
+        <div>djdjdj</div>
+        <div>djdjdj</div>
+ 
+ <Box component="main" sx={{ p: 3 ,border:"1px solid green"}}>
+        <Toolbar />
+        <Typography>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+          unde fugit veniam eius, perspiciatis sunt? Corporis qui ducimus
+          quibusdam, aliquam dolore excepturi quae. Distinctio enim at eligendi
+          perferendis in cum quibusdam sed quae, accusantium et aperiam? Quod
+          itaque exercitationem, at ab sequi qui modi delectus quia corrupti
+          alias distinctio nostrum. Minima ex dolor modi inventore sapiente
+          necessitatibus aliquam fuga et. Sed numquam quibusdam at officia
+          sapiente porro maxime corrupti perspiciatis asperiores, exercitationem
+          eius nostrum consequuntur iure aliquam itaque, assumenda et! Quibusdam
+          temporibus beatae doloremque voluptatum doloribus soluta accusamus
+          porro reprehenderit eos inventore facere, fugit, molestiae ab officiis
+          illo voluptates recusandae. Vel dolor nobis eius, ratione atque
+          soluta, aliquam fugit qui iste architecto perspiciatis. Nobis,
+          voluptatem! Cumque, eligendi unde aliquid minus quis sit debitis
+          obcaecati error, delectus quo eius exercitationem tempore. Delectus
+          sapiente, provident corporis dolorum quibusdam aut beatae repellendus
+          est labore quisquam praesentium repudiandae non vel laboriosam quo ab
+          perferendis velit ipsa deleniti modi! Ipsam, illo quod. Nesciunt
+          commodi nihil corrupti cum non fugiat praesentium doloremque
+          architecto laborum aliquid. Quae, maxime recusandae? Eveniet dolore
+          molestiae dicta blanditiis est expedita eius debitis cupiditate porro
+          sed aspernatur quidem, repellat nihil quasi praesentium quia eos,
+          quibusdam provident. Incidunt tempore vel placeat voluptate iure
+          labore, repellendus beatae quia unde est aliquid dolor molestias
+          libero. Reiciendis similique exercitationem consequatur, nobis placeat
+          illo laudantium! Enim perferendis nulla soluta magni error, provident
+          repellat similique cupiditate ipsam, et tempore cumque quod! Qui, iure
+          suscipit tempora unde rerum autem saepe nisi vel cupiditate iusto.
+          Illum, corrupti? Fugiat quidem accusantium nulla. Aliquid inventore
+          commodi reprehenderit rerum reiciendis! Quidem alias repudiandae eaque
+          eveniet cumque nihil aliquam in expedita, impedit quas ipsum nesciunt
+          ipsa ullam consequuntur dignissimos numquam at nisi porro a, quaerat
+          rem repellendus. Voluptates perspiciatis, in pariatur impedit, nam
+          facilis libero dolorem dolores sunt inventore perferendis, aut
+          sapiente modi nesciunt.
+        </Typography>
+      </Box>
+ 
+ p: 3
+ 
+screen
+ 
+screen
+ 
+flex-cen
+ 
+.navBarCus
+ 
+  {navItems.map((item) => (
+              <Button key={item} sx={{ color: "#fff" }}>
+                {item}
+              </Button>
+            ))}
+ 
+.navbarCus .css-hyum1k-MuiToolbar-root {
+  height: 100% !important;
+}
+ 
+className="sign"
+ 
+key={item}
+ 
+{item}
+ 
+5rem
+ 
+App
+ 
+DrawerAppBar.propTypes = {
+  /**
+   * Injected by the documentation to work in an iframe.
+   * You won't need it on your project.
+   */
+  window: PropTypes.func,
+};
+
+ 
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ 

@@ -1,0 +1,20 @@
+.footer {
+  min-height: 35.3rem;
+  background-color: #f1eeff;
+  padding: 0px 3rem;
+  margin-top: 5rem !important;
+}
+.row-cont {
+  /* align-items: center;
+  flex-direction: column; */
+}
+.row-cont ul {
+  list-style: none;
+  text-transform: uppercase !important;
+  padding: 0;
+}
+.row-cont ul li {
+  margin-bottom: 1rem;
+  color: #565656;
+  font-size: 1.1rem;
+}

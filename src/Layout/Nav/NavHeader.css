@@ -1,0 +1,19 @@
+.navHead a {
+  text-decoration: none !important;
+  color: black !important;
+  margin: 0px 2rem !important;
+  text-transform: uppercase !important;
+  font-size: 1.1rem !important;
+}
+.active1 {
+  border-bottom: 2px solid #342876;
+}
+@media (max-width: 700px) {
+  .navHead{
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    padding: 10px 0px;
+    align-items: center;
+    min-height: 14rem !important;
+  }
+}
